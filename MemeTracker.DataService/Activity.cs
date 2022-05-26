@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace MemeTracker.DataService
 {
-    public class Behavior
+    public class Activity
     {
         public Guid Id { get; set; }
-        public Activity Activity { get; set; }
-        public decimal Probability { get; set; }
+        public BehaviorType ActivityType { get; set; }
     }
 }
