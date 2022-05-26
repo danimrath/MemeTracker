@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeTracker.Web.Api", "Meme
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeTracker.FunctionalServices", "MemeTracker.FunctionalServices\MemeTracker.FunctionalServices.csproj", "{1B9B35FF-D62D-4AC2-A8EB-69C291542B0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeTracker.DataService", "MemeTracker.DataService\MemeTracker.DataService.csproj", "{FDC4A306-F3DE-4DB3-892D-B629F6CA9A2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1B9B35FF-D62D-4AC2-A8EB-69C291542B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B9B35FF-D62D-4AC2-A8EB-69C291542B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B9B35FF-D62D-4AC2-A8EB-69C291542B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC4A306-F3DE-4DB3-892D-B629F6CA9A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC4A306-F3DE-4DB3-892D-B629F6CA9A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC4A306-F3DE-4DB3-892D-B629F6CA9A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC4A306-F3DE-4DB3-892D-B629F6CA9A2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
