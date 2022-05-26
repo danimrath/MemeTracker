@@ -1,10 +1,45 @@
 {
   "version": 2,
-  "dgSpecHash": "W2ZW40EU+/39qx16j/o9icpRww2dKvw8MeXeF8gn2Jtxg+wl32DALwZzOuZQFT8xKJw3GOZn4/qKxvTUxNbwvQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Jake Choi\\source\\repos\\MemeTracker\\MemeTracker\\MemeTracker.Web.Api\\MemeTracker.Web.Api.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Jake Choi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
-  ],
-  "logs": []
+  "dgSpecHash": "EWCbkEgQa+KDIKlhtwWbN8IIXUlc4vsb8jLFYfhmbCXg1UN6gFEVP2+Y+3icim4zEiVvlLNxzLi0Jw/0qfI31Q==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Noel Friesen\\Source\\Repos\\MemeTracker\\MemeTracker\\MemeTracker.Web.Api\\MemeTracker.Web.Api.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App.Host.win-x64. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNetCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.WindowsDesktop.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
